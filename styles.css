@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,11 +27,19 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    transition: color 0.3s ease;
 }
+nav a:hover {
+    color: #f39c12;
 
 main {
     padding: 20px;
 }
+    footer {
+        background: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
 
 @media (max-width: 768px) {
     nav ul {
